@@ -1,5 +1,6 @@
-from types import Problem
+from custom_types import Problem
 
 def export_results(p: Problem, f_out: str):
     """Export the results to the file specified."""
-    pass
+
+    print("Exporting results to {}".format(f_out))
